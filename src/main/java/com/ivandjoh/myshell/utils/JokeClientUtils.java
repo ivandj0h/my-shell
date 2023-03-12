@@ -5,8 +5,6 @@ import org.springframework.web.service.annotation.GetExchange;
 
 public interface JokeClientUtils {
 
-    // make GET request to https://icanhazdadjoke.com/
-
     @GetExchange("/")
     JokeResponse getRandJoke();
 }
